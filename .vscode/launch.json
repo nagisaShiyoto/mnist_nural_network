@@ -12,5 +12,15 @@
         "justMyCode": false,
         "envFile": "${workspaceFolder}\\.vscode\\.env"
       },
+      {
+        "name": "dowload database",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}\\dowload_dataBase.py",
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "justMyCode": false,
+        "envFile": "${workspaceFolder}\\.vscode\\.env"
+      },
     ]
 }
